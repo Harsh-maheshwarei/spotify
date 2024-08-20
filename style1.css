@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    overscroll-behavior-y: none;
+
+}
+.left{
+    width: 25vw;
+}
+
+.home{
+    height: 25vh;
+    width: 23vw;
+    margin: 10px;
+    background-color: rgb(30, 29, 29);
+    border-radius: 10px;
+}
+.list ul li{
+    list-style: none;
+    padding-left: 25px;
+    padding-top: 25px;
+    display: flex;
+}
+.list ul li svg{
+    filter: invert(1);
+    height: 18px;
+}
+.logo{
+    padding-top: 25px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.logo svg{
+    filter: invert(1);
+}
+.library{
+    height: 70vh;
+    width: 23vw;
+    background-color: rgb(30, 29, 29);
+    border-radius: 10px;
+    margin: 10px;
+    /* padding: 25px; */
+}
+.your-library{
+    padding: 35px;
+}
+.right{
+    width: 75vw;
+}
+.panel1{
+    height: 10vh;
+    width: 74vw;
+    margin-right:  10px;
+    margin-top: 10px;
+    background-color:  rgb(10, 10, 10);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.btn{
+  /* gap: 15px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+}
+.log-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sign-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.log-btn{
+    height: 35px;
+    width: 75px;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.sign-btn{
+    height: 35px;
+    width: 75px;
+    margin: 10px;
+    background-color:  rgb(30, 29, 29);
+    color: white;
+    font-size: 15px;
+    
+}
+.panel2{
+    width: 74vw;
+    margin-right:  15px;
+    background-color:  rgb(30, 29, 29);
+}
+.items{
+     padding-top: 50px;
+     padding-left: 10px;
+     display: flex;
+     justify-content: space-between;
+}
+.text{
+    font-size: 25px; 
+    font-weight: 600;
+}
+.text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.show-btn{
+    font-size: 15px;
+        margin-right: 20px;
+        border: none;
+        /* box-shadow: none; */
+        background-color: rgb(30, 29, 29);;
+        color:grey;
+}
+.show-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.artists{
+    width: 74vw;
+background-color:  rgb(18, 17, 17);    
+margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* overscroll-behavior-y:none ; */
+    /* justify-content: space-between; */
+}
+.box{
+    height: 240px;
+    width: 14vw;
+    
+}
+.box:hover{
+cursor: pointer;
+background-color: rgb(30, 29, 29);
+border-radius: 10px;
+color: whitesmoke;
+}
+.box img{
+    height: 150px;
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 13px;
+    border-radius: 50%;
+}
+.playlist{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.Song{
+    font-size: 18px;
+    margin-left: 15px;
+}
